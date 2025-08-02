@@ -1,0 +1,3 @@
+ansible ec2 plugin (search this to make dynamic inventory file)
+you will have to give ec2 read to master 
+install boto3 python liberary for this plugin function to run which is writen by ansible in python.
