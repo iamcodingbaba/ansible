@@ -3,3 +3,5 @@ you will have to give ec2 read to master
 install boto3 python liberary for this plugin function to run which is writen by ansible in python.
 dynamic inventory file should end with (aws_ec2.yaml)
 we have to provide pem key location and host key checking false in /etc/ansible/ansible.config file
+ansible roles are created by comunities and can be downloaded in a roles directory which we will make where our plyabook.yaml file is present, roles downloded using git clone.
+
