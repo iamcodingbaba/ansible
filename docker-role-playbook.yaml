@@ -1,0 +1,7 @@
+---
+- name: installing docker using roles
+  become: true
+  hosts: all
+  roles:
+    - role: ansible-role-docker
+      become: yes
