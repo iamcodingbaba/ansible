@@ -1,3 +1,6 @@
 plugin: amazon.aws.aws_ec2
 regions:
   - us-east-1
+plugin:
+  tag:managed: # in ec2 launch template we give this tag so this tag is present in all ec2 created with that auto scaling group - tag:- managed ansible
+    - ansible
