@@ -1,1 +1,1 @@
-sudo apt-install python3-boto3
+sudo apt install python3-boto3
